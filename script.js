@@ -41,7 +41,7 @@ function Display(input) {
 
 function speak(text) {
   let speech = new SpeechSynthesisUtterance();
-  speech.text = text;s
+  speech.text = text;
   speech.lang = "en-US"; 
   speech.rate = 1;
   speech.pitch = 1;
